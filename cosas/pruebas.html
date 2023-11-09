@@ -1,56 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<body>
+    
+</body>
+
     <meta charset="UTF-8">
-    <title>Presentación de Personajes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
-        h1 {
-            color: #333;
-        }
-
-        .character {
+        .pelicula {
             width: 300px;
             margin: 20px;
-            padding: 20px;
             background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            display: inline-block;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .character img {
-            max-width: 100%;
+        .pelicula img {
+            width: 100%;
+            height: auto;
+        }
+
+        .pelicula-info {
+            padding: 15px;
+        }
+
+        h2, p {
+            margin: 0;
+            color: #333;
         }
     </style>
+    <title>Mural de Películas</title>
 </head>
 <body>
-    <h1>Presentación de Personajes</h1>
 
-    <div class="character">
-        <img src="personaje1.jpg" alt="Personaje 1">
-        <h2>Personaje 1</h2>
-        <p>Descripción del personaje 1.</p>
+    <div class="pelicula">
+        <img src="enlace-imagen-pelicula-1.jpg" alt="Póster Película 1">
+        <div class="pelicula-info">
+            <h2>Nombre Película 1</h2>
+            <p>Descripción corta de la película 1.</p>
+        </div>
     </div>
 
-    <div class="character">
-        <img src="personaje2.jpg" alt="Personaje 2">
-        <h2>Personaje 2</h2>
-        <p>Descripción del personaje 2.</p>
+    <div class="pelicula">
+        <img src="enlace-imagen-pelicula-2.jpg" alt="Póster Película 2">
+        <div class="pelicula-info">
+            <h2>Nombre Película 2</h2>
+            <p>Descripción corta de la película 2.</p>
+        </div>
     </div>
 
-    <div class="character">
-        <img src="personaje3.jpg" alt="Personaje 3">
-        <h2>Personaje 3</h2>
-        <p>Descripción del personaje 3.</p>
+    <div class="pelicula">
+        <button id="imagen-boton"> <a href=""></a> <img src="enlace-imagen-pelicula-3.jpg" alt="Póster Película 3"></button>
+        <div class="pelicula-info">
+            <h2>Nombre Película 3</h2>
+            <p>Descripción corta de la película 3.</p>
+        </div>
+        <button id="imagen-boton"> <a href="https://www5.pelisplushd.lat/pelicula/cars"> <img src="cuchau.jpg"> </a>
     </div>
-
-    
 
 </body>
 </html>
+b
