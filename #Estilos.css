@@ -1,0 +1,26 @@
+body{
+    background-image:url("cuchau1.jpg") ;
+    background-size: 100%;
+
+    
+
+}
+.texto-centrado{
+    text-align: center;
+    background-color: rgb(250, 0, 0);
+    border-radius: 30px; 
+}
+a{
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+#imagen-boton{
+    margin: 10% 40% 10% 40%;
+    display: block;
+}
+
+@media screen {
+    
+}
