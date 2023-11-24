@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,47 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style>
     body {
-      background-color: #f2f2f2; 
+      background-color: #4d4d4d;
+      color: #f2f2f2;
+      height: 100vh;
     }
-    
-    
+
     form {
-      font-family: 'Helvetica, Arial, sans-serif'; 
-      color: #f2303a; 
-      max-width: 400px; 
-      margin: 0 auto; 
-      padding: 20px; 
-      background-color: rgba(255, 0, 0, 0.1); 
-      border: 1px solid #e2f440; 
-      border-radius: 5px; 
-      box-shadow: 0 0 10px rgba(0, 0, 255, 0.2); 
+      font-family: 'Helvetica, Arial, sans-serif';
+      color: #f2303a;
+      max-width: 400px;
+      margin: auto; 
+      padding: 20px;
+      background-color: rgba(255, 0, 0, 0.1);
+      border: 1px solid rgb(244, 67, 64);
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(174, 255, 0, 0.2);
+    }
+
+    button {
+      background-color: #0066cc;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
-<body>
-  <form>
+
+<body class="d-flex align-items-center"> 
+  <form action="pagina de inicio.html" method="GET">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Ingresa tu Email</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">Inicia sesión </div>
     </div>
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+      <input type="password" class="form-control" id="exampleInputPassword1" name="password">
     </div>
     <div class="mb-3 form-check">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Visualizar contraseña</label>
     </div>
-    <button  type="submit"  class="btn btn-primary"><a href="pagina de inicio.html">INICIAR</a></button>
+    <button type="submit" class="btn btn-primary">INICIAR</button>
   </form>
 </body>
-</html>
 
+</html>
