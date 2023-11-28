@@ -12,10 +12,11 @@ h1 {
     width: 300px;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    display: inline-block;
+    display: list-item;
+ 
 }
 
 .character img {
@@ -110,7 +111,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column; /* Alinear verticalmente uno debajo del otro */
+    flex-direction: column; 
 }
 
 .texto-centrado {
